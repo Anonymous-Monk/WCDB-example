@@ -1,0 +1,417 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D532864BF167059D33C45145 /* libPods-WCDB-example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 635CC340F45E21D387DA061E /* libPods-WCDB-example.a */; };
+		DA0271691F4D83660048C130 /* RHWCDBManager.mm in Sources */ = {isa = PBXBuildFile; fileRef = DA0271681F4D83660048C130 /* RHWCDBManager.mm */; };
+		DA02716C1F4DBDF80048C130 /* ZZFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DA02716B1F4DBDF80048C130 /* ZZFileManager.m */; };
+		DAB90DAC1F4D743200215CF3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DAB90DAB1F4D743200215CF3 /* main.m */; };
+		DAB90DAF1F4D743200215CF3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DAB90DAE1F4D743200215CF3 /* AppDelegate.m */; };
+		DAB90DB21F4D743200215CF3 /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = DAB90DB11F4D743200215CF3 /* ViewController.mm */; };
+		DAB90DB51F4D743200215CF3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAB90DB31F4D743200215CF3 /* Main.storyboard */; };
+		DAB90DB71F4D743200215CF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAB90DB61F4D743200215CF3 /* Assets.xcassets */; };
+		DAB90DBA1F4D743200215CF3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAB90DB81F4D743200215CF3 /* LaunchScreen.storyboard */; };
+		DAB90DC41F4D7B2500215CF3 /* RHTestModel.mm in Sources */ = {isa = PBXBuildFile; fileRef = DAB90DC31F4D7B2500215CF3 /* RHTestModel.mm */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		635CC340F45E21D387DA061E /* libPods-WCDB-example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WCDB-example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA96D5ECA417F426A13899CE /* Pods-WCDB-example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WCDB-example.release.xcconfig"; path = "Pods/Target Support Files/Pods-WCDB-example/Pods-WCDB-example.release.xcconfig"; sourceTree = "<group>"; };
+		D138FD060BB4039CB1B6BCBD /* Pods-WCDB-example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WCDB-example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WCDB-example/Pods-WCDB-example.debug.xcconfig"; sourceTree = "<group>"; };
+		DA0271671F4D83660048C130 /* RHWCDBManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHWCDBManager.h; sourceTree = "<group>"; };
+		DA0271681F4D83660048C130 /* RHWCDBManager.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = RHWCDBManager.mm; sourceTree = "<group>"; };
+		DA02716A1F4DBDF80048C130 /* ZZFileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZFileManager.h; sourceTree = "<group>"; };
+		DA02716B1F4DBDF80048C130 /* ZZFileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZFileManager.m; sourceTree = "<group>"; };
+		DAB90DA71F4D743200215CF3 /* WCDB-example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WCDB-example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAB90DAB1F4D743200215CF3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DAB90DAD1F4D743200215CF3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DAB90DAE1F4D743200215CF3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DAB90DB01F4D743200215CF3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DAB90DB11F4D743200215CF3 /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
+		DAB90DB41F4D743200215CF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DAB90DB61F4D743200215CF3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DAB90DB91F4D743200215CF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DAB90DBB1F4D743200215CF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAB90DC21F4D7B2500215CF3 /* RHTestModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHTestModel.h; sourceTree = "<group>"; };
+		DAB90DC31F4D7B2500215CF3 /* RHTestModel.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = RHTestModel.mm; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DAB90DA41F4D743200215CF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D532864BF167059D33C45145 /* libPods-WCDB-example.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		601BB5D5D22EE175011312C0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				635CC340F45E21D387DA061E /* libPods-WCDB-example.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9AF2F0FAAE38CC5D725C5743 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D138FD060BB4039CB1B6BCBD /* Pods-WCDB-example.debug.xcconfig */,
+				CA96D5ECA417F426A13899CE /* Pods-WCDB-example.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DAB90D9E1F4D743200215CF3 = {
+			isa = PBXGroup;
+			children = (
+				DAB90DA91F4D743200215CF3 /* WCDB-example */,
+				DAB90DA81F4D743200215CF3 /* Products */,
+				9AF2F0FAAE38CC5D725C5743 /* Pods */,
+				601BB5D5D22EE175011312C0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DAB90DA81F4D743200215CF3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DAB90DA71F4D743200215CF3 /* WCDB-example.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DAB90DA91F4D743200215CF3 /* WCDB-example */ = {
+			isa = PBXGroup;
+			children = (
+				DAB90DAD1F4D743200215CF3 /* AppDelegate.h */,
+				DAB90DAE1F4D743200215CF3 /* AppDelegate.m */,
+				DAB90DC21F4D7B2500215CF3 /* RHTestModel.h */,
+				DAB90DC31F4D7B2500215CF3 /* RHTestModel.mm */,
+				DA0271671F4D83660048C130 /* RHWCDBManager.h */,
+				DA0271681F4D83660048C130 /* RHWCDBManager.mm */,
+				DA02716A1F4DBDF80048C130 /* ZZFileManager.h */,
+				DA02716B1F4DBDF80048C130 /* ZZFileManager.m */,
+				DAB90DB01F4D743200215CF3 /* ViewController.h */,
+				DAB90DB11F4D743200215CF3 /* ViewController.mm */,
+				DAB90DB31F4D743200215CF3 /* Main.storyboard */,
+				DAB90DB61F4D743200215CF3 /* Assets.xcassets */,
+				DAB90DB81F4D743200215CF3 /* LaunchScreen.storyboard */,
+				DAB90DBB1F4D743200215CF3 /* Info.plist */,
+				DAB90DAA1F4D743200215CF3 /* Supporting Files */,
+			);
+			path = "WCDB-example";
+			sourceTree = "<group>";
+		};
+		DAB90DAA1F4D743200215CF3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DAB90DAB1F4D743200215CF3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DAB90DA61F4D743200215CF3 /* WCDB-example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAB90DBE1F4D743200215CF3 /* Build configuration list for PBXNativeTarget "WCDB-example" */;
+			buildPhases = (
+				0F461636870CD348613129A2 /* [CP] Check Pods Manifest.lock */,
+				DAB90DA31F4D743200215CF3 /* Sources */,
+				DAB90DA41F4D743200215CF3 /* Frameworks */,
+				DAB90DA51F4D743200215CF3 /* Resources */,
+				E952C70CD3B9FFB37FE07EC6 /* [CP] Embed Pods Frameworks */,
+				1DBD3C4957EB99AD6FD7B199 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WCDB-example";
+			productName = "WCDB-example";
+			productReference = DAB90DA71F4D743200215CF3 /* WCDB-example.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DAB90D9F1F4D743200215CF3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = zero;
+				TargetAttributes = {
+					DAB90DA61F4D743200215CF3 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = DAB90DA21F4D743200215CF3 /* Build configuration list for PBXProject "WCDB-example" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DAB90D9E1F4D743200215CF3;
+			productRefGroup = DAB90DA81F4D743200215CF3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DAB90DA61F4D743200215CF3 /* WCDB-example */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DAB90DA51F4D743200215CF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAB90DBA1F4D743200215CF3 /* LaunchScreen.storyboard in Resources */,
+				DAB90DB71F4D743200215CF3 /* Assets.xcassets in Resources */,
+				DAB90DB51F4D743200215CF3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0F461636870CD348613129A2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WCDB-example-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1DBD3C4957EB99AD6FD7B199 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WCDB-example/Pods-WCDB-example-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E952C70CD3B9FFB37FE07EC6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WCDB-example/Pods-WCDB-example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DAB90DA31F4D743200215CF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAB90DB21F4D743200215CF3 /* ViewController.mm in Sources */,
+				DAB90DAF1F4D743200215CF3 /* AppDelegate.m in Sources */,
+				DAB90DAC1F4D743200215CF3 /* main.m in Sources */,
+				DA0271691F4D83660048C130 /* RHWCDBManager.mm in Sources */,
+				DAB90DC41F4D7B2500215CF3 /* RHTestModel.mm in Sources */,
+				DA02716C1F4DBDF80048C130 /* ZZFileManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DAB90DB31F4D743200215CF3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DAB90DB41F4D743200215CF3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DAB90DB81F4D743200215CF3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DAB90DB91F4D743200215CF3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DAB90DBC1F4D743200215CF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DAB90DBD1F4D743200215CF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DAB90DBF1F4D743200215CF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D138FD060BB4039CB1B6BCBD /* Pods-WCDB-example.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "WCDB-example/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Anonymous-Monk.WCDB-example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DAB90DC01F4D743200215CF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA96D5ECA417F426A13899CE /* Pods-WCDB-example.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "WCDB-example/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Anonymous-Monk.WCDB-example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DAB90DA21F4D743200215CF3 /* Build configuration list for PBXProject "WCDB-example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAB90DBC1F4D743200215CF3 /* Debug */,
+				DAB90DBD1F4D743200215CF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAB90DBE1F4D743200215CF3 /* Build configuration list for PBXNativeTarget "WCDB-example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAB90DBF1F4D743200215CF3 /* Debug */,
+				DAB90DC01F4D743200215CF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DAB90D9F1F4D743200215CF3 /* Project object */;
+}
